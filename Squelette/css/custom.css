@@ -1,6 +1,37 @@
 /* Vos customisations des classes de Bootstrap */
+@import url('https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&display=swap');
 
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: "arvo";
+}
 
+body {
+    width: 100vw;
+    height: 110vh;
+}
+
+header {
+    background-color: #222222;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+header nav div a {
+    color: #9d9d9d;
+    font-family: "avro";
+    font-weight: 700;
+    word-spacing: 0px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
 
 
 /* Responsive Styling */
